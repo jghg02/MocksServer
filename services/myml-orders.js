@@ -9,6 +9,8 @@ var purchase_list1 = require('./listado_compras1.json');
 var purchase_list2 = require('./listado_compras2.json');
 var purchase_list3 = require('./listado_compras3.json');
 var purchase_list4 = require('./listado_compras4.json');
+var down_payment_list = require('./down_payment_list.json');
+
 
 
 
@@ -22,6 +24,8 @@ var purchasesList = function (request, response, next) {
             resList = purchase_list3;
         } else if (offset >= "30" && offset <= "39"){
             resList = purchase_list4;
+        }  else if(offset >= "40"){
+            resList = down_payment_list;
         }
         response.send(JSON.stringify(resList), 200);
     }, 2000);
