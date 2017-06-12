@@ -1,0 +1,717 @@
+{
+  "paging": {
+    "total": 40,
+    "limit": 10,
+    "offset": 0
+  },
+  "results": [
+    {
+      "purchase_id": 1,
+      "pack_id": 1,
+      "title": {
+        "text": "<font color=\"#39b54a\">Envío en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Llega entre el 10 y el 13 de septiembre.</font>"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "https://http2.mlstatic.com/auriculares-accesorios-audio-video-S_187521-MLA20803557308_072016-S.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "shipping_state",
+          "data": {
+            "brand" : {
+              "icon": "shipping"
+            },
+            "title": {
+              "text": "Envío en camino"
+            },
+            "description": {
+              "text": "Llega entre el 10 y el 13 de Septiembre."
+            },
+            "shipping_tracking": [
+              {
+                "type": "node_circle",
+                "color": "#1bb04a",
+                "position": 0,
+                "label": "<font color=\"#1bb04a\">05/Sep</font>"
+              },
+              {
+                "type": "bar",
+                "color": "#1bb04a",
+                "position": 0,
+                "length": 40
+              },
+              {
+                "type": "node_circle",
+                "color": "#1bb04a",
+                "position": 40,
+                "label": "<font color=\"#1bb04a\">08/Sep</font>"
+              },
+              {
+                "type": "bar",
+                "color": "#ebebeb",
+                "position": 40,
+                "length": 60
+              },
+              {
+                "type": "node_circle",
+                "color": "#ebebeb",
+                "position": 100,
+                "label": "<font color=\"#ebebeb\">Entrega</font>"
+              }
+            ],
+            "optional_action": {
+              "type": "shipping_detail_modal",
+              "label": "Detalle del envío",
+              "data": {
+                "title" : "Detalle del envío",
+                "details" : [
+                  {
+                    "title" : "5 de Septiembre",
+                    "descriptions": [
+                      "07:30 Se despacho en aduana",
+                      "10:20 En viaje a sucursal de destino"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "purchase_state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "https://http2.mlstatic.com/auriculares-accesorios-audio-video-S_187521-MLA20803557308_072016-S.jpg"
+              },
+              "title": {
+                "text": "Sony audifonos bluetooth Extra bass"
+              },
+              "action": "meli://purchases/1/item/MLA1"
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Detalle de la compra",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Tengo un problema",
+              "data": {
+                "action": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 2,
+      "title": {
+        "text": "<font color=\"#f57819\">Pago Pendiente</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Paga $17.278 con OXXO</font>"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+          }
+        },
+        {
+          "image": {
+            "thumbnail": "http://mla-s1-p.mlstatic.com/214121-MLA20725753604_052016-I.jpg"
+          }
+        },
+        {
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/638801-MLU20400917960_082015-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "payment_state",
+          "data": {
+            "brand" : {
+              "icon": "ticket",
+              "status_icon": "warning"
+            },
+            "title": {
+              "text": "Paga $17.278 con OXXO"
+            },
+            "subtitle": {
+              "text": "Ve a OXXO con tu ticket. Pagas, y se acredita de 1 a 2 días hábiles."
+            },
+            "primary_action": {
+              "type": "deeplink",
+              "label": "Ver ticket",
+              "data": {
+                "action": "..."
+              }
+            },
+            "optional_action": {
+              "type": "deeplink",
+              "label": "Usar otro medio de pago",
+              "data": {
+                "action": "..."
+              }
+            }
+          }
+        },
+        {
+          "id": "map",
+          "data": {
+            "lat": -34.6037,
+            "lng": -58.3819,
+            "address": "Obelisco"
+          }
+        },
+        {
+          "id": "purchase_state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+              },
+              "title": {
+                "text": "Celular iPhone 7"
+              },
+              "action": "meli://..."
+            },
+            {
+              "image": {
+                "thumbnail": "http://mla-s1-p.mlstatic.com/214121-MLA20725753604_052016-I.jpg"
+              },
+              "title": {
+                "text": "Sony audifonos bluetooth Extra bass"
+              },
+              "action": "meli://..."
+            },
+            {
+              "image": {
+                "thumbnail": "http://mlu-s2-p.mlstatic.com/638801-MLU20400917960_082015-I.jpg"
+              },
+              "title": {
+                "text": "Sony audifonos bluetooth Extra bass"
+              },
+              "action": "meli://..."
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "cancel_purchase",
+              "label": "Cancelar compra",
+              "data": {
+                "title": {
+                  "text": "¡Estás cancelando tu compra!"
+                },
+                "description": {
+                  "text": "Si aún quieres comprar estos items, agregalos a tu carrito."
+                },
+                "primary_action": {
+                  "type": "deeplink",
+                  "label": "Agregar items al carrito",
+                  "data": {
+                    "action": "..."
+                  }
+                },
+                "secondary_action": {
+                  "type": "deeplink",
+                  "label": "Eliminar todo",
+                  "data": {
+                    "action": "..."
+                  }
+                }
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Detalle de la compra",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Tengo un problema",
+              "data": {
+                "action": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 3,
+      "item_id": "MLA620725204",
+      "title": {
+        "text": "Recibiste - 05 Ene 2016"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Celular iPhone 7 plus 32gb 4g Lte Doble Camara Ram 4gb</font>"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id": "item_detail",
+          "data": {
+            "item": {
+              "id": "MLA620725204",
+              "title": {
+                "text": "Celular iPhone 7 plus 32gb 4g Lte Doble Camara Ram 4gb"
+              },
+              "hint": {
+                "text": "Recibiste - 05 Ene 2016"
+              },
+              "price": {
+                "cents": "",
+                "decimal_separator": ",",
+                "fraction": "12.799",
+                "sign": "",
+                "symbol": "$"
+              },
+              "quantity": {
+                "text": "x 1 u."
+              },
+              "image": {
+                "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+              },
+              "action": "meli://vip/?itemId=MLA620725204"
+            }
+          }
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Enviar mensaje",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Preguntas que hiciste",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Detalle de la compra",
+              "data": {
+                "action": "..."
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Tengo un problema",
+              "data": {
+                "action": "..."
+              }
+            }
+          ]
+        },
+        {
+          "id" : "purchase_info",
+          "data" : {
+            "title" : {
+              "text" : "Compra realizada el 30/Dic/16 a las 10:30"
+            },
+            "subtitle" : {
+              "text" : "Orden #00981238901"
+            }
+          }
+        },
+        {
+          "id": "related_items",
+          "data": {
+            "label": "Mas publicaciones del vendedor",
+            "items": [
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              }
+            ],
+            "more_items": {
+              "action": "meli://search/?filter&sellerId=123",
+              "label": "Mas publicaciones del vendedor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "purchase_id": 4,
+      "pack_id": 4,
+      "title": {
+        "text": "<font color=\"#f57819\">Envío demorado</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Te avisaremos cuando esté en camino</font>"
+      },
+      "info_msg": {
+        "title": {
+          "text": "<font color=\"#f57819\">Reclamo abierto</font>"
+        },
+        "background_color": "#fef4ec"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Cargador Apple"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/288021-MLU20684287712_042016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Auto"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/chevrolet-53-157111-MLU20491707259_112015-F.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Cargador Apple"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/288021-MLU20684287712_042016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 5,
+      "item_id": "MLA1234",
+      "title": {
+        "text": "<font color=\"#333333\">Recibiste - 12 Mar 2016</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">VW Bora 1.8 impecable estado.</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "VW Bora"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/221905-MLU25081274472_102016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Auto"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/chevrolet-53-157111-MLU20491707259_112015-F.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 6,
+      "pack_id": 6,
+      "title": {
+        "text": "<font color=\"#333333\">Lo retiras por tu cuenta</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Bicicleta Gribom R26 Cambridge Paseo Dama Turquesa con Canasto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "iPhone 6"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/333111-MLU20480586323_112015-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 7,
+      "pack_id": 7,
+      "title": {
+        "text": "<font color=\"#333333\">Procesando</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Bicicleta Gribom R26 Cambridge Paseo Dama Turquesa con Canasto y Timbre</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        },
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 8,
+      "pack_id": 8,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 9,
+      "pack_id": 9,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        },
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 10,
+      "pack_id": 10,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Moto Winner"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/599505-MLU25034547535_092016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Moto"
+          },
+          "image": {
+            "thumbnail": "NoUrl"
+          }
+        }
+      ],
+      "templates": []
+    }
+  ]
+}

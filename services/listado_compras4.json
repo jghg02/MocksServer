@@ -1,0 +1,246 @@
+{
+  "paging": {
+    "total": 40,
+    "limit": 10,
+    "offset": 30
+  },
+  "results": [
+    {
+      "purchase_id": 31,
+      "pack_id": 31,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "info_msg": {
+        "title": {
+          "text": "<font color=\"#f57819\">Reclamo abierto</font>"
+        },
+        "background_color" : "#fef4ec"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Celular Samsung Galaxy J1 Ace Ve 4g Lte Garantia Oficial"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/839605-MLU25052270470_092016-I.jpg"
+          },
+          "claim": {
+            "title": {
+              "text": "Reclamo abierto"
+            }
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 32,
+      "pack_id": 32,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Celular Samsung Galaxy J1 Mini 3g Garantia Oficial"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/167605-MLU25052350516_092016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 33,
+      "pack_id": 33,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Samsung Galaxy J5 Dual Sim 4g Lte  Samsung Store"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/849605-MLU25052313165_092016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Galaxy J1 Mini Dual Sim 4g Lte Gtia Oficial"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/230705-MLU25052344381_092016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Galaxy J2 4g Lte Samsung Store"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/471705-MLU25052333943_092016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 34,
+      "pack_id": 34,
+      "title": {
+        "text": "<font color=\"#333333\">Pago pendiente</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Galaxy J1 Mini Dual Sim 3g Garantia Oficial"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/810705-MLU25052345916_092016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 35,
+      "pack_id": 35,
+      "title": {
+        "text": "<font color=\"#333333\">Pendiente de pago</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "J5 Single Sim 4g Lte  Samsung Store"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/203605-MLU25052306451_092016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 36,
+      "pack_id": 36,
+      "title": {
+        "text": "<font color=\"#333333\">Pago pendiente</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "J7 2016 4g Lte Samsung Store"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/590521-MLU20797112712_072016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 37,
+      "pack_id": 37,
+      "title": {
+        "text": "<font color=\"#333333\">Procesando</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Samsung Galaxy J5 4g Lte"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/773121-MLU20704040240_052016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 38,
+      "pack_id": 38,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Samsung Galaxy J7 4g Lte Oferta Contado Imperdible!!</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Cargador usb"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/722021-MLU20693389570_042016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 39,
+      "pack_id": 39,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Samsung S5 4g Todas Las Compañias Gtia 1 Año Futuroxxi Dimm"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/944811-MLU20630808256_032016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 40,
+      "pack_id": 40,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Smartphone Samsung Galaxy J7"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/150121-MLU20686252585_042016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    }
+  ]
+}

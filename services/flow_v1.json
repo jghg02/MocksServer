@@ -1,0 +1,798 @@
+{
+  "paging": {
+    "total": 40,
+    "limit": 10,
+    "offset": 0
+  },
+  "results": [
+    {
+      "purchase_id": 1,
+      "title": {
+        "text": "Reservaste el vehículo"
+      },
+      "description": {
+        "text": "Coordina con el vendedor el resto del pago"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "payment_state",
+          "data": {
+            "brand" : {
+              "icon": "purchase",
+              "status_icon": "-1"
+            },
+            "title": {
+              "text": "Coordina con el vendedor el pago del vehículo"
+            },
+            "contact_data":{
+              "nickname":"Autos Fernández",
+              "name":"Roberto Fernández Arias",
+              "phone":"011 15 6431 3131",
+              "address":"Av. Maipú 1343, Vicente López. Buenos Aires - Argentina."
+            },
+            "contact_actions":[
+              {
+                "type":"call",
+                "label":"Llamar",
+                "data":{
+                  "phone":"11 4 328 9523",
+                  "alternative_phone":"15 5 1234 9878"
+                }
+              },
+              {
+                "type":"messaging",
+                "label":"Mensajería",
+                "data":{
+                  "action":"meli://my_purchases/:orderId/messages",
+                  "show_unread":false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+              },
+              "title": {
+                "text": "Ford Ranger..."
+              },
+              "action": "meli://my_purchases/orders/35"
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Cancelar la reserva",
+              "data": {
+                "action": "IR a la pantalla con opciones"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/2/detail"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 2,
+      "title": {
+        "text": "Confirmanos si ya tienes el vehículo"
+      },
+      "description": {
+        "text": "El vendedor nos dijo que ya lo tienes"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "payment_state",
+          "data": {
+            "brand" : {
+              "icon": "user",
+              "status_icon": "-1"
+            },
+            "title": {
+              "text": "El vendedor nos dijo que ya te entregó el vehículo"
+            },
+            "subtitle": {
+              "text": "Confirmanos si ya lo tienes"
+            },
+            "primary_action": {
+              "type": "deeplink",
+              "label": "Si, lo tengo",
+              "data": {
+                "action": "meli://feedbacks/orders/1338106120/delivered?use_mp=true&shipping_mode=custom&item_with_me=false"
+              },
+              "track": {
+                "path": "/MYML/PURCHASES/STATUS/",
+                "event_action": "show_ticket",
+                "dimensions": [
+                  {
+                    "id": 62,
+                    "name": "CartContent",
+                    "value": "Yes"
+                  },
+                  {
+                    "id": 68,
+                    "name": "PurchaseStatus",
+                    "value": "Pending"
+                  }
+                ]
+              }
+            },
+            "optional_action": {
+              "type": "deeplink",
+              "label": "No lo tengo",
+              "data": {
+                "action": "Aqui deeplink a la nueva pantalla con 'qe te gustaria hacer'"
+              }
+            }
+          }
+        },
+        {
+          "id": "state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+              },
+              "title": {
+                "text": "Ford Ranger..."
+              },
+              "action": "meli://my_purchases/orders/35"
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/2/detail"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "meli://my_purchases/orders/1/seller"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 3,
+      "item_id": "MLA620725204",
+      "title": {
+        "text": "Recibido"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Ford Ranger 3.2 RDCi C/Doble 6MT 4x4 LTD (L12)</font>"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id": "item_detail",
+          "data": {
+            "item": {
+              "id": "MLC445882804",
+              "title": {
+                "text": "Ford Ranger 3.2 RDCi C/Doble 6MT 4x4 LTD (L12)"
+              },
+              "hint": {
+                "text": "Compra completada"
+              },
+              "price": {
+                "cents": "",
+                "decimal_separator": ",",
+                "fraction": "33.900",
+                "sign": "",
+                "symbol": "R$"
+              },
+              "quantity": {
+                "text": ""
+              },
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg",
+                "action": "meli://vip/?itemId=MLC445882804"
+              },
+              "action": "meli://vip/?itemId=MLC445882804"
+            }
+          }
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/3/detail"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "meli://my_purchases/orders/3/seller"
+              }
+            }
+          ]
+        },
+        {
+          "id" : "purchase_info",
+          "data" : {
+            "title" : {
+              "text" : "Compra realizada el 30/Dic/16 a las 10:30"
+            },
+            "subtitle" : {
+              "text" : "Orden #00981238901"
+            }
+          }
+        },
+        {
+          "id": "related_items",
+          "data": {
+            "label": "Mas publicaciones del vendedor",
+            "items": [
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              }
+            ],
+            "more_items": {
+              "action": "meli://search/?filter&sellerId=123",
+              "label": "Mas publicaciones del vendedor"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "purchase_id": 4,
+      "title": {
+        "text": "Reserva cancelada"
+      },
+      "description": {
+        "text": "Ford Ranger 3.2 TDCi C/Doble 6MT 4x4 LTD (L12)"
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "payment_state",
+          "data": {
+            "brand" : {
+              "icon": "",
+              "status_icon": "-1"
+            },
+            "title": {
+              "text": "Cancelaste la reserva"
+            },
+            "subtitle": {
+              "text": "Devolvimos R$ 500 a tu cuenta de Mercado Pago"
+            }
+          }
+        },
+        {
+          "id": "state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+              },
+              "title": {
+                "text": "Ford Ranger 3.2 TDCi C/Doble 6MT 4x4 LTD (L12)"
+              },
+              "action": "meli://my_purchases/orders/35"
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/2/detail"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "meli://my_purchases/orders/1/seller"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 5,
+      "title": {
+        "text": "Reserva cancelada"
+      },
+      "description": {
+        "text": "El vendedor decidió no vender el vehículo. Dinos dónde quieres recibir tu dinero."
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id" : "payment_state",
+          "data": {
+            "brand" : {
+              "icon": "",
+              "status_icon": "-1"
+            },
+            "title": {
+              "text": "Reserva cancelada"
+            },
+            "subtitle": {
+              "text": "Devolveremos el dinero a tu cuenta de Mercado Pago o a tu tarjeta de crédito."
+            },
+            "primary_action": {
+              "type": "deeplink",
+              "label": "Elegir cçomo cobrarlo",
+              "data": {
+                "action": "Aqui nueva pantalla de metodos de pago"
+              },
+              "track": {
+                "path": "/MYML/PURCHASES/STATUS/",
+                "event_action": "show_ticket",
+                "dimensions": [
+                  {
+                    "id": 62,
+                    "name": "CartContent",
+                    "value": "Yes"
+                  },
+                  {
+                    "id": 68,
+                    "name": "PurchaseStatus",
+                    "value": "Pending"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "state_items",
+          "data" :
+          [
+            {
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+              },
+              "title": {
+                "text": "Ford Ranger 3.2 RDCi C/Doble 6MT 4x4 LTD (L12)"
+              },
+              "action": "meli://my_purchases/orders/35"
+            }
+          ]
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/2/detail"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "meli://my_purchases/orders/1/seller"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "purchase_id": 90,
+      "title": {
+        "text": "Detalle de la reserva"
+      },
+      "description": {
+        "text": "El vendedor decidió no vender el vehículo. Dinos dónde quieres recibir tu dinero."
+      },
+      "items": [
+        {
+          "image": {
+            "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg"
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id": "item_classifieds_detail",
+          "data": {
+            "item": {
+              "id": "MLC445882804",
+              "title": {
+                "text": "Ford Ranger 3.2 4x4 LTD"
+              },
+              "hint": {
+                "text": "Entregado"
+              },
+              "price": {
+                "cents": "",
+                "decimal_separator": ",",
+                "fraction": "33.900",
+                "sign": "",
+                "symbol": "R$"
+              },
+              "reserved_price": {
+                "label": "<font color=\"#f57819\">Reserva:</font>",
+                "cents": "04",
+                "decimal_separator": ",",
+                "fraction": "<b>500</b>",
+                "sign": "",
+                "symbol": "R$"
+              },
+              "image": {
+                "thumbnail": "http://mlc-s1-p.mlstatic.com/723497-MLC25632882028_052017-I.jpg",
+                "action": "meli://vip/?itemId=MLC445882804"
+              },
+              "action": "meli://vip/?itemId=MLC445882804"
+            }
+          }
+        },
+        {
+          "id": "secondary_links",
+          "data": [
+            {
+              "type": "deeplink",
+              "label": "Detalle de la reserva",
+              "data": {
+                "action": "meli://my_purchases/purchase/2/detail"
+              }
+            },
+            {
+              "type": "deeplink",
+              "label": "Información del vendedor",
+              "data": {
+                "action": "meli://my_purchases/orders/1/seller"
+              }
+            }
+          ]
+        },
+        {
+          "id": "related_items",
+          "data": {
+            "label": "Mas publicaciones del vendedor",
+            "items": [
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              },
+              {
+                "image": {
+                  "thumbnail": "http://mla-s2-p.mlstatic.com/764211-MLA20522782096_122015-I.jpg"
+                },
+                "title": {
+                  "text": "Iphone 6 plus 64gb 5.5 A8 Sellado"
+                },
+                "hint": {
+                  "text": "Pago devuelto"
+                },
+                "price": {
+                  "cents": "00",
+                  "decimal_separator": ",",
+                  "fraction": "480",
+                  "sign": "",
+                  "symbol": "$"
+                },
+                "quantity": {
+                  "text": "x 1 u."
+                },
+                "action": "meli://vip/:itemId"
+              }
+            ],
+            "more_items": {
+              "action": "meli://search/?filter&sellerId=123",
+              "label": "Mas publicaciones del vendedor"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "track": {
+    "path": "/MYML/PURCHASES/LIST/",
+    "dimensions": [
+      {
+        "id": 62,
+        "name": "CartContent",
+        "value": "Yes"
+      }
+    ]
+  }
+}

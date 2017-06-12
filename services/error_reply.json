@@ -1,0 +1,6 @@
+{
+  "message": "Oops! Something went wrong...",
+  "error": "internal_error",
+  "status": 500,
+  "cause": [ ]
+}

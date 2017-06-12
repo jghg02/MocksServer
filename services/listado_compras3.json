@@ -1,0 +1,288 @@
+{
+  "paging": {
+    "total": 40,
+    "limit": 10,
+    "offset": 20
+  },
+  "results": [
+    {
+      "purchase_id": 21,
+      "pack_id": 21,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Radio Spica"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/239111-MLU20487605564_112015-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Auriculares Beat"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/638801-MLU20400917960_082015-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Televisor LED"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/697011-MLU20461079519_102015-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Macbook Pro"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/591705-MLU25055346542_092016-I.jpg"
+          },
+          "claim": {
+            "title": {
+              "text": "Reclamo abierto"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "Macbook Pro"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/591705-MLU25055346542_092016-I.jpg"
+          },
+          "claim": {
+            "title": {
+              "text": "Reclamo abierto"
+            }
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 22,
+      "pack_id": 22,
+      "title": {
+        "text": "<font color=\"#333333\">Pago pendiente</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "info_msg": {
+        "title": {
+          "text": "<font color=\"#f57819\">Reclamo abierto</font>"
+        },
+        "background_color" : "#fef4ec"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Alcatel Idol 3"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/412221-MLU20702995654_052016-I.jpg"
+          },
+          "claim": {
+            "title": {
+              "text": "Reclamo abierto"
+            }
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 23,
+      "pack_id": 23,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Sony Z1"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/444405-MLU20858922423_082016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 24,
+      "pack_id": 24,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Samsung S3"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/569901-MLU20428605418_092015-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 25,
+      "pack_id": 25,
+      "title": {
+        "text": "<font color=\"#333333\">Pendiente de pago</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Alcatel J5"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/590521-MLU20797112712_072016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 26,
+      "pack_id": 26,
+      "title": {
+        "text": "<font color=\"#39b54a\">Ya está en camino</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Ace 4"
+          },
+          "image": {
+            "thumbnail": "http://mla-s1-p.mlstatic.com/479621-MLA20826231951_072016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 27,
+      "pack_id": 27,
+      "title": {
+        "text": "<font color=\"#333333\">Procesando</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Camara Foto Samsung"
+          },
+          "image": {
+            "thumbnail": "http://mla-s1-p.mlstatic.com/709905-MLA25081862324_102016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 28,
+      "pack_id": 28,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Bafle"
+          },
+          "image": {
+            "thumbnail": "http://mla-s2-p.mlstatic.com/698401-MLA20341522794_072015-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 29,
+      "pack_id": 29,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "iPad"
+          },
+          "image": {
+            "thumbnail": "http://mla-s1-p.mlstatic.com/167305-MLA20853543651_082016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    },
+    {
+      "purchase_id": 30,
+      "pack_id": 30,
+      "title": {
+        "text": "<font color=\"#333333\">Pago Recibido</font>"
+      },
+      "description": {
+        "text": "<font color=\"#666666\">Enviar antes del 02 de agosto</font>"
+      },
+      "items": [
+        {
+          "title": {
+            "text": "Nexus 5"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/736405-MLU20865941787_082016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Nexus 4"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/385305-MLU25009679495_082016-I.jpg"
+          }
+        },
+        {
+          "title": {
+            "text": "Nexus One"
+          },
+          "image": {
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/337605-MLU25051484237_092016-I.jpg"
+          }
+        }
+      ],
+      "templates": []
+    }
+  ]
+}
